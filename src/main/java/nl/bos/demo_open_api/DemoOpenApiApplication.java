@@ -23,6 +23,7 @@ public class DemoOpenApiApplication {
 			bookRepository.save(new Book("In Love", "Amy Bloom"));
 			bookRepository.save(new Book("The School for Good Mothers", "Jessamine Chan"));
 			bookRepository.save(new Book("The Candy House", "Jennifer Egan"));
+			bookRepository.save(new Book("The Candy House2", "Jennifer Egan2"));
 
 			for (Book book : bookRepository.findAll()) {
 				log.info(String.valueOf(book));
